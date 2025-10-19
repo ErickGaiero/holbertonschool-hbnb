@@ -1,5 +1,5 @@
 from email_validator import validate_email, EmailNotValidError
-from models.Base_model import BaseModel
+from app.models.Base_model import BaseModel
 
 
 unique_emails = set()
