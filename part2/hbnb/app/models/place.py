@@ -1,7 +1,7 @@
-from models.Base_model import BaseModel
-from models.user import User
-from models.review import Review
-from models.amenity import Amenity
+from app.models.Base_model import BaseModel
+from app.models.user import User
+from app.models.review import Review
+from app.models.amenity import Amenity
 
 class Place(BaseModel):
     def __init__(self, title, description, price, latitude, longitude, owner):

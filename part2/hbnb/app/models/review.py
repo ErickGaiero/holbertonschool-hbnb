@@ -1,6 +1,6 @@
-from models.Base_model import BaseModel
-from models.place import Place
-from models.user import User
+from app.models.Base_model import BaseModel
+from app.models.user import User
+
 
 class Review(BaseModel):
     def __init__(self, text, rating, place, user):
