@@ -1,3 +1,5 @@
 flask
 flask-restx
 email_validator
+sqlalchemy
+flask-sqlalchemy
